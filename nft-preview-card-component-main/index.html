@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      min-height: 100vh;
+     background-color: rgb(4, 4, 35);
+      font-family: arial;
+      cursor: zoom-in;
+    }
+  .box{
+    background-color: rgb(12, 12, 66);
+    border-radius: 10px;
+  }
+  .cube{
+    width: 200px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+
+  .profile-picture{
+    width: 25px;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .creator{
+    display: inline-block;
+    vertical-align: top;
+    color: gray;
+    margin-top: 7px;
+    font-size: 11px;
+   
+  }
+  .heading{
+    color: white;
+    margin-left: 20px;
+  }
+
+  .heading:active{
+    color: aqua;
+  }
+
+  .intro{
+    font-size: 12px;
+   margin-left: 20px;
+   color: gray;
+  }
+  .name{
+    margin-right: 5px;
+    color: white;
+  }
+
+  .name:active{
+    color: aqua;
+  }
+
+  .logo{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: aqua;
+    
+  }
+  .time{
+    display: inline-block;
+    color: gray;
+    margin-right: 5px;
+    
+   
+  }
+  .line{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+  .tag{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img class="cube" src="images/image-equilibrium.jpg" >
+<p class="heading">
+  Equilibrium #3429
+</p>
+<p class="intro">
+  Our Equilibrium collection promotes<br>balance and calm
+</p>
+<div class="tag">
+  <p class="logo">
+    <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg> 0.041 ETH
+  
+  </p>
+  <p class="time">
+    <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+    3 days left 
+</div>
+
+</p>
+<hr class="line">
+<img class="profile-picture" src="images/image-avatar.png" >
+<p class="creator">
+  Creation of <span class="name">Jules Wyvern</span>
+</p>
+  </div>
+
+</body>
+</html>

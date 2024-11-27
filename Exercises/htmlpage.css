@@ -1,0 +1,33 @@
+p {
+  font-size: 11px;
+  font-family: arial;
+}
+img{
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#many{
+  background-color: yellow;
+}
+.cat-senses{
+  margin-left: 50px;
+  text-decoration: underline;
+}
+li {
+  margin-left: 65px;
+  font-size: 12px;
+}
+.difference{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+.div-one{
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  height: 30px;
+}
